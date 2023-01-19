@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:template match="customers/customer">
+		<!--TASK-3: Add unique attribute customer Id to each of the customer. -->
+		<xsl:copy>
+			<xsl:attribute name="cid">
+				<xsl:value-of select="generate-id()"/>
+			</xsl:attribute>
+			<xsl:apply-templates/>
+		</xsl:copy>
+	</xsl:template>
+	
+	<xsl:template match="*">
+		<xsl:copy>
+			<xsl:apply-templates />
+		</xsl:copy>
+	</xsl:template>
+</xsl:stylesheet>

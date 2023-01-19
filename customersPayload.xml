@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customers>
+      <customer>
+            <firstName>Akshay</firstName>
+            <lastName>Goud</lastName>
+            <middleName>Manchala</middleName>
+            <email>akshay123@gmail.com</email>
+            <phoneNumber>9999999999</phoneNumber>
+			<ssn>48902</ssn>
+            <address>
+                  <city>ERIE</city>
+                  <state>PA</state>
+                  <addressLines>7651 HAMOT RD</addressLines>
+                  <addressLines2/>
+                  <postalCode>16509</postalCode>
+            </address>
+      </customer>
+      <customer>
+            <firstName>Sri</firstName>
+            <lastName>Charan</lastName>
+            <middleName>Koneru</middleName>
+            <email>charan456@gmail.com</email>
+            <phoneNumber>9999999999</phoneNumber>
+			<ssn>90065</ssn>
+            <address>
+                  <city>ERIE</city>
+                  <state>PA</state>
+                  <addressLines>7651 HAMOT RD</addressLines>
+                  <addressLines2/>
+                  <postalCode>16509</postalCode>
+            </address>
+      </customer>
+      <customer>
+            <firstName>Aishwarya</firstName>
+            <lastName>Shetty</lastName>
+            <middleName></middleName>
+            <email>aishwarya789@gmail.com</email>
+            <phoneNumber>9999999999</phoneNumber>
+			<ssn>00642</ssn>
+            <address>
+                  <city>ERIE</city>
+                  <state>PA</state>
+                  <addressLines>7651 HAMOT RD</addressLines>
+                  <addressLines2/>
+                  <postalCode>16509</postalCode>
+            </address>
+      </customer>
+</customers>
